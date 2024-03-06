@@ -1,8 +1,8 @@
 # Naucz się Informatyki na własną rękę
 
-[Ta strona internetowa to polskie tłumaczenie teachyourselfcs.com.](https://teachyourselfcs.com/)
+[Ten dokument markdown to polskie tłumaczenie teachyourselfcs.com.](https://teachyourselfcs.com/)
 
-[Github polskiego tłumaczenia.](https://github.com/wiktor-rocks/TeachYourSelfCS-PL)
+[Strona internetowa polskiego tłumaczenia.](https://wiktor-rocks.github.io/TeachYourSelfCS-PL/)
 
 Uwaga: ten przewodnik był szeroko zaktualizowany w maju 2020 roku. Do poprzedniej wersji, [kliknij tutaj](https://teachyourselfcs.com/2016/).
 
