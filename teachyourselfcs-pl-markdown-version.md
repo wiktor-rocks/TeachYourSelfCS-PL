@@ -226,7 +226,7 @@ Dlatego nasza sugerowana kolejność ma przede wszystkim pomóc Ci _w ogóle za
 
 Kiedy ten poradnik powstawał w 2016 r., program [OSS](https://github.com/open-source-society/computer-science) zawierał zbyt wiele tematów, sugerował gorsze materiały do wielu z nich i nie dostarczał żadnego uzasadnienia czy wskazówek, które aspekty poszczególnych kursów są wartościowe. Staraliśmy się ograniczyć listę kursów do tych, które Twoim zdaniem _naprawdę powinien znać_ każdy inżynier oprogramowania, niezależnie od specjalizacji i pomóc Ci zrozumieć, dlaczego każdy kurs został uwzględniony. W kolejnych latach, program OSS poprawił się, ale wciąż uważamy, że ten poradnik dostarcza jaśniejszą, spójniejszą ścieżkę.
 
-freeCodeCamp koncentruje się głównie na programowaniu, nie informatyce. Dlaczego warto uczyć się informatyki, zobacz [powyżej](#dlaczego-warto-uczyć-się-informatyki?). Jeśli jesteś nowy w programowaniu, sugerujemy skupienie się na nim najpierw i powrót do tego poradnika za rok czy dwa.
+freeCodeCamp koncentruje się głównie na programowaniu, nie informatyce. Dlaczego warto uczyć się informatyki, zobacz [powyżej](#dlaczego-warto-uczyć-się-informatyki). Jeśli jesteś nowy w programowaniu, sugerujemy skupienie się na nim najpierw i powrót do tego poradnika za rok czy dwa.
 
 #### A co z językiem X?
 
