@@ -14,7 +14,7 @@ body {
 img {
   float: right;
   margin: 20px 0 20px 20px; /* This adds some space between the image and the text */
-  max-width: 400px;
+  max-width: 300px;
 }
 blockquote {
   padding: 10px;
