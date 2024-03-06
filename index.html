@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teachyourselfcs PL</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<h1 id="naucz-si-informatyki-na-w-asn-r-k-">Naucz się Informatyki na własną rękę</h1>
+<a href="https://teachyourselfcs.com/">Ta strona internetowa to polskie tłumaczenie teachyourselfcs.com.</a>
+<p class="important">Uwaga: ten przewodnik był szeroko zaktualizowany w maju 2020 roku. Do poprzedniej wersji, <a
+        href="https://teachyourselfcs.com/2016/">kliknij tutaj</a>.</p>
+<p>Jeśli jesteś samoukiem lub absolwentem bootcampu, powinieneś nauczyć się informatyki. Na szczęście możesz zdobyć
+    światowej klasy wykształcenie w tej dziedzinie bez wieloletniego studiowania i wydawania fortuny na dyplom 💸.</p>
+<p>Jest wiele dostępnych zasobów, ale niektóre są lepsze od innych. Nie potrzebujesz kolejnej listy &quot;200+ darmowych
+    kursów online&quot;. Potrzebujesz odpowiedzi na te pytania:</p>
+<ul>
+    <li><strong>Jakich tematów</strong> powinieneś się nauczyć i dlaczego?</li>
+    <li>Jaka jest <strong>najlepsza książka lub seria wykładów wideo</strong> dla każdego tematu?</li>
+</ul>
+<p>Ten poradnik jest naszą próbą udzielenia ostatecznych odpowiedzi na te pytania.</p>
+<h2 id="tl-dr-podsumowanie-">TL;DR (Podsumowanie):</h2>
+<p>Przestudiuj wszystkie dziewięć tematów poniżej, mniej więcej w podanej kolejności, korzystając z podręcznika lub
+    serii wykładów video, ale idealnie z obu. Poświęć około 100-200 godzin na każdy temat, a następnie powracaj do
+    ulubionych tematów w trakcie swojej kariery 🚀.</p>
+<table>
+    <thead>
+        <tr>
+            <th>Temat</th>
+            <th>Dlaczego warto się go nauczyć?</th>
+            <th>Książka</th>
+            <th>Wykłady video</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong><a href="#programowanie">Programowanie</a></strong></td>
+            <td>Nie bądź osobą, która &quot;nigdy do końca nie zrozumiała&quot; czegoś takiego jak rekurencja.</td>
+            <td><em>Structure and Interpretation of Computer Programs</em></td>
+            <td>Wykłady Briana Harveya z Berkeley CS 61A</td>
+        </tr>
+        <tr>
+            <td><strong><a href="#architektura-komputer-w">Architektura komputerów</a></strong></td>
+            <td>Jeśli nie masz solidnego modelu mentalnego tego, jak komputer faktycznie działa, wszystkie twoje wyższo
+                poziomowe abstrakcje będą kruche.</td>
+            <td><em>Computer Systems: A Programmer&#39;s Perspective</em></td>
+            <td>Berkeley CS 61C</td>
+        </tr>
+        <tr>
+            <td><strong><a href="#algorytmy-i-struktury-danych">Algorytmy i struktury danych</a></strong></td>
+            <td>Jeśli nie umiesz korzystać z powszechnych struktur danych, takich jak stosy, kolejki, drzewa i grafy,
+                nie będziesz w stanie rozwiązywać trudnych problemów.</td>
+            <td><em>The Algorithm Design Manual</em></td>
+            <td>Wykłady Stevena Skieny</td>
+        </tr>
+        <tr>
+            <td><strong><a href="#matematyka-dla-informatyk-w">Matematyka dla informatyków</a></strong></td>
+            <td>Informatyka to w zasadzie rozgałęzienie stosowanej matematyki, więc nauka matematyki da ci przewagę
+                konkurencyjną.</td>
+            <td><em>Mathematics for Computer Science</em></td>
+            <td>Wykłady Toma Leightona z MIT 6.042J</td>
+        </tr>
+        <tr>
+            <td><strong><a href="#systemy-operacyjne">Systemy operacyjne</a></strong></td>
+            <td>Większość pisanego przez Ciebie kodu jest egzekwowana przez system operacyjny, więc powinieneś wiedzieć,
+                jak te elementy współdziałają ze sobą.</td>
+            <td><em>Operating Systems: Three Easy Pieces</em></td>
+            <td>Berkeley CS 162</td>
+        </tr>
+        <tr>
+            <td><strong><a href="#sieci-komputerowe">Sieci komputerowe</a></strong></td>
+            <td>Internet okazał się wielką sprawą: zrozum jego działanie, aby odblokować jego pełen potencjał.</td>
+            <td><em>Computer Networking: A Top-Down Approach</em></td>
+            <td>Stanford CS 144</td>
+        </tr>
+        <tr>
+            <td><strong><a href="#bazy-danych">Bazy danych</a></strong></td>
+            <td>Dane są w sercu większości ważnych programów, ale niewiele osób rozumie, jak działają systemy
+                bazodanowe.</td>
+            <td><em>Readings in Database Systems</em></td>
+            <td>Wykłady Joe Hellersteina z Berkeley CS 186</td>
+        </tr>
+        <tr>
+            <td><strong><a href="#j-zyki-programowania-i-kompilatory">Języki i kompilatory</a></strong></td>
+            <td>Jeśli zrozumiesz, jak faktycznie działają języki i kompilatory, będziesz pisać lepszy kod i łatwiej
+                nauczysz się nowych języków.</td>
+            <td><em>Crafting Interpreters</em></td>
+            <td>Kurs Alexa Aikena na edX</td>
+        </tr>
+        <tr>
+            <td><strong><a href="#systemy-rozproszone">Systemy rozproszone</a></strong></td>
+            <td>W dzisiejszych czasach, większość systemów to systemy rozproszone.</td>
+            <td><em>Designing Data-Intensive Applications</em> Martina Kleppmanna</td>
+            <td>MIT 6.824</td>
+        </tr>
+    </tbody>
+</table>
+<h2 id="wci-za-du-o-">Wciąż za dużo?</h2>
+<p>Jeśli idea samodzielnego studiowania 9 tematów w ciągu kilku lat wydaje ci się przytłaczająca, sugerujemy skupienie
+    się na dwóch książkach: <em>Computer Systems: A Programmer&#39;s Perspective</em> i <em>Designing Data-Intensive
+        Applications</em>. Naszym zdaniem, te dwie książki zapewniają niezwykle wysoki zwrot z zainwestowanego czasu,
+    szczególnie dla samouków i absolwentów bootcampów pracujących nad aplikacjami sieciowymi. Mogą również służyć jako
+    &quot;wprowadzenie&quot; do pozostałych wymienionych tematów i zasobów.</p>
+<h2 id="dlaczego-warto-uczy-si-informatyki-">Dlaczego warto uczyć się informatyki?</h2>
+<p>Istnieją 2 typy inżynierów oprogramowania: tacy, którzy rozumieją informatykę na tyle dobrze, by pracować nad
+    trudnymi, innowacyjnymi zagadnieniami, oraz tacy, którzy radzą sobie, ponieważ znają kilka narzędzi wysokiego
+    poziomu.</p>
+<p>Obie grupy nazywają siebie inżynierami oprogramowania i na początku kariery zarabiają podobne kwoty. Jednak
+    inżynierowie typu 1 z czasem przechodzą do bardziej satysfakcjonującej i lepiej płatnej pracy, czy to komercyjnej,
+    czy przełomowych projektów open source, obejmują stanowiska liderskie lub dokonują wysokiej jakości indywidualnych
+    wkładów.</p>
+
+<p>Inżynierowie typu 1 znajdują sposoby na dogłębne poznanie informatyki, czy to tradycyjnymi metodami, czy przez
+    nieustanne uczenie się w trakcie kariery. Inżynierowie typu 2 zwykle pozostają na powierzchni, ucząc się konkretnych
+    narzędzi i technologii, a nie ich podstawowych założeń, i przyswajają nowe umiejętności tylko gdy zmienia się
+    technologiczna moda.</p>
+<p>Aktualnie liczba osób wkraczających do branży szybko rośnie, podczas gdy liczba absolwentów informatyki jest
+    względnie stała. Nadmiar inżynierów typu 2 zaczyna ograniczać ich szanse zatrudnienia i trzymać z dala od
+    najciekawszych zajęć w branży. Niezależnie od tego, czy dążysz do bycia inżynierem typu 1, czy po prostu szukasz
+    większego bezpieczeństwa pracy, nauka informatyki jest jedyną niezawodną ścieżką.</p>
+
+<blockquote>
+    <p>Globalny system SMS obsługuje około 20 mld wiadomości dziennie. WhatsApp obsługuje 42 mld. Z 57 inżynierami. <a
+            href="https://t.co/zZrtSIzhlR">pic.twitter.com/zZrtSIzhlR</a></p>
+    <p>– Benedict Evans (@BenedictEvans) <a href="https://twitter.com/BenedictEvans/status/694342874729545729">2 luty
+            2016</a></p>
+</blockquote>
+    <p><a class='big-image' href="https://twitter.com/jenna/status/838161631662092289"><img
+            src="https://pfst.cf2.poecdn.net/base/image/0c0e45dafd1ebc8187ec04c3b7496fdee6c7420059c382b155009c09b769f000?w=635&amp;h=557&amp;pmaid=49959650"
+            alt=""></a></p>
+<h2 id="przewodniki-tematyczne">Przewodniki tematyczne</h2>
+<h3 id="programowanie">Programowanie</h3>
+<p>Większość studiów informatycznych licencjackich zaczyna się od &quot;wprowadzenia&quot; do programowania komputerów.
+    Najlepsze wersje tych kursów skierowane są nie tylko do początkujących, ale także do tych, którzy przegapili
+    przydatne koncepcje i modele programowania, ucząc się kodowania po raz pierwszy.</p>
+<p>Nasz standardowy wybór do nauki tej tematyki, to klasyczna pozycja <em>Structure and Interpretation of Computer
+        Programs</em>, dostępna za darmo online zarówno jako <a
+        href="https://sarabander.github.io/sicp/html/index.xhtml">książka</a>, jak i <a
+        href="https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/">zbiór
+        wykładów wideo z MIT</a>. Choć te wykłady są świetne, zamiast nich sugerujemy obejrzeć <a
+        href="https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter">wykłady Briana Harveya
+        dot. SICP</a> (dla kursu 61A na Berkeley). Są one bardziej dopracowane i lepiej skierowane do nowych studentów
+    niż wykłady z MIT.</p>
+<p>Polecamy przerobienie przynajmniej trzech pierwszych rozdziałów SICP i wykonanie ćwiczeń. Dodatkową praktykę zapewni
+    rozwiązywanie zestawu małych zadań programistycznych, takich jak te z serwisu <a
+        href="http://exercism.io/">exercism</a>.</p>
+<p>Odkąd ten poradnik został opublikowany po raz pierwszy w 2016 roku, jedno z najczęściej zadawanych pytań dotyczy
+    tego, czy rekomendujemy nowsze nagrania kursu 61A prowadzonego przez Johna DeNero i/lub odpowiadającą im książkę
+    <em><a href="https://composingprograms.com/">Composing Programs</a></em>, która podąża &quot;w ślady SICP&quot;, ale
+    używa Pythona. Uważamy, że materiały DeNero są również świetne i niektórzy studenci mogą je preferować, ale wciąż
+    sugerujemy najpierw spróbować SICP, Scheme i wykładów Briana Harveya. </p>
+<p>Dlaczego? Ponieważ SICP jest wyjątkowy w swojej zdolności - przynajmniej potencjalnie - do zmiany twoich
+    fundamentalnych przekonań na temat komputerów i programowania. Nie każdy doświadczy tego. Niektórzy znienawidzą tę
+    książkę, inni nie przebrną dalej niż przez pierwsze kilka stron. Ale potencjalne korzyści sprawiają, że warto
+    spróbować.</p>
+<p>Jeśli SICP ci się nie spodoba, wypróbuj <em>Composing Programs</em>. Jeśli to ciągle nie pasuje, spróbuj <em><a
+            href="http://www.htdp.org/">How to Design Programs</a></em>. Jeśli żadna z tych pozycji nie wydaje się
+    proporcjonalnie nagradzać twojego wysiłku, być może jest to znak, że powinieneś na jakiś czas skupić się na innych
+    tematach i wrócić do programowania za rok czy dwa.</p>
+<p>Na koniec wyjaśnienie: ten poradnik NIE jest przeznaczony dla całkowitych początkujących w programowaniu. Zakładamy,
+    że jesteś kompetentnym programistą bez wykształcenia informatycznego, który chce uzupełnić braki w wiedzy. Fakt, że
+    uwzględniliśmy sekcję o &quot;programowaniu&quot; jest po prostu przypomnieniem, że może być więcej do nauczenia się
+    w tej dziedzinie. Dla osób, które nigdy wcześniej nie programowały, ale chciałyby się tego nauczyć, lepszy może być
+    taki poradnik jak <a href="https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started">ten</a>.</p>
+<p><a href="https://sarabander.github.io/sicp/html/index.xhtml"><img
+            src="https://pfst.cf2.poecdn.net/base/image/5daae9b7e356f6e95e6a11240aad9e2b0eb15dab0cd9941132c9fe636166efb9?w=207&amp;h=300&amp;pmaid=49960236"
+            alt="Structure and Interpretation of Computer Programs"></a></p>
+<h3 id="architektura-komputer-w">Architektura komputerów</h3>
+<p>Architektura komputerów - czasem nazywana &quot;systemami komputerowymi&quot; lub &quot;organizacją komputera&quot; -
+    stanowi ważne spojrzenie na obliczenia poniżej powierzchni oprogramowania. Naszym zdaniem, jest to najbardziej
+    zaniedbywany obszar wśród samouków-programistów.</p>
+<p>Nasz ulubiony podręcznik to <em><a href="http://csapp.cs.cmu.edu/3e/home.html">Computer Systems: A Programmer&#39;s
+            Perspective</a></em>, a typowy kurs wprowadzający do architektury komputerów z tej książki <a
+        href="http://csapp.cs.cmu.edu/3e/courses.html">obejmowałby</a> większość rozdziałów 1-6. </p>
+<p>Uwielbiamy CS:APP za praktyczne, zorientowane na programistów podejście. Choć w architekturze komputerów jest o wiele
+    więcej niż to, co pokrywa książka, stanowi ona świetny punkt startu dla tych, którzy chcieliby zrozumieć systemy
+    komputerowe przede wszystkim po to, aby pisać szybsze, wydajniejsze i niezawodne <em>oprogramowanie</em>.</p>
+<p>Dla osób, które wolałyby łagodniejsze wprowadzenie w temat i równowagę między sprzętem a oprogramowaniem, polecamy
+    <em>The Elements of Computing Systems</em>, znane również jako „Nand2Tetris”. To ambitna książka, która stara się
+    dać spójne zrozumienie tego, jak działa komputer. Każdy rozdział obejmuje budowanie małego fragmentu całego systemu
+    - od pisania elementarnych bramek logicznych w HDL, przez CPU i asemblery, aż do aplikacji wielkości gry Tetris.</p>
+<p>Polecamy przeczytanie pierwszych sześciu rozdziałów książki i wykonanie towarzyszących im projektów. Rozwinie to
+    twoje rozumienie relacji między architekturą maszyny a działającym na niej oprogramowaniem.</p>
+<p>Pierwsza połowa książki (i wszystkie projekty) jest dostępna za darmo na stronie <a
+        href="http://www.nand2tetris.org/">Nand2Tetris</a>. Jest też dostępna jako <a
+        href="https://www.coursera.org/learn/build-a-computer">kurs na Courserze z materiałami wideo</a>.</p>
+<p>Dążąc do prostoty i spójności, Nand2Tetris poświęca głębię tematu. W szczególności, dwa bardzo ważne koncepty
+    nowoczesnej architektury komputerów - potokowanie i hierarchia pamięci - są prawie całkowicie nieobecne w tekście.
+</p>
+<p>Gdy poczujesz się komfortowo z treścią Nand2Tetris, sugerujemy albo powrót do CS:APP, albo sięgnięcie po doskonały i
+    już klasyczny podręcznik Pattersona i Hennessy&#39;ego <em><a
+            href="https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269">Computer
+            Organization and Design</a></em>. Nie wszystkie sekcje w książce są niezbędne; sugerujemy podążanie za
+    kursem Berkeley CS61C &quot;Great Ideas in Computer Architecture&quot; aby wybrać konkretne fragmenty do
+    przeczytania. Notatki i laboratoria są dostępne online, a nagrania dawnych wykładów można znaleźć <a
+        href="https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_">w Internet Archive</a>.
+</p>
+<p><a href="http://csapp.cs.cmu.edu/3e/home.html"><img
+            src="https://pfst.cf2.poecdn.net/base/image/10acba8462df44d602229f29fdb9aadd90a1b8cbd6fd6dd9449e99040d2cfac0?w=389&amp;h=499&amp;pmaid=49960532"
+            alt="Computer Systems: A Programmer&#39;s Perspective"></a></p>
+<blockquote>
+    <p>Sprzęt jest platformą</p>
+</blockquote>
+<p>– Mike Acton, dyrektor silnika w Insomniac Games<br>(<a href="https://www.youtube.com/watch?v=rX0ItVEVjHc">obejrzyj
+        jego wykład z CppCon</a>)</p>
+<h3 id="algorytmy-i-struktury-danych">Algorytmy i struktury danych</h3>
+<p>Zgadzamy się z wieloletnią powszechną mądrością, że zaznajomienie się z typowymi algorytmami i strukturami danych
+    jest jednym z najbardziej wartościowych aspektów edukacji w informatyce. To także świetne miejsce do trenowania
+    ogólnych zdolności rozwiązywania problemów, co przyniesie korzyści w każdym innym obszarze studiów.</p>
+<p>Jest dostępnych setki książek, ale nasz ulubiony to <em><a
+            href="https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/">The Algorithm Design
+            Manual</a></em> Stevena Skieny. On wyraźnie kocha algorytmiczne rozwiązywanie problemów i zwykle udaje mu
+    się zaszczepić podobny entuzjazm w swoich studentach i czytelnikach. Naszym zdaniem, dwa bardziej popularne
+    podręczniki (CLRS i Sedgewick) mają tendencję do zbytniego skupiania się na dowodach dla osób uczących się głównie w
+    celu poprawienia praktycznych umiejętności rozwiązywania problemów.</p>
+<p>Dla preferujących wykłady wideo, <a href="https://www3.cs.stonybrook.edu/~skiena/373/videos/">Skiena hojnie
+        udostępnia swoje online</a>. Podobają nam się również wykłady Tima Roughgardena, dostępne <a
+        href="https://www.coursera.org/specializations/algorithms">na Courserze</a> oraz <a
+        href="http://timroughgarden.org/videos.html">gdzie indziej</a>. Który styl wykładu bardziej ci odpowiada -
+    Skieny czy Roughgardena - będzie kwestią osobistych preferencji. W rzeczywistości istnieje kilkanaście dobrych
+    alternatyw, więc jeśli znajdziesz inną, która ci odpowiada, zachęcamy do trzymania się jej!</p>
+<p>Do ćwiczeń polecamy rozwiązywanie zadań na stronie <a href="http://leetcode.com/">Leetcode</a>. Zwykle są to
+    interesujące problemy z dołączonymi rozwiązaniami i dyskusjami. Pomogą również sprawdzić twój postęp na pytaniach
+    często wykorzystywanych na rozmowach technicznych w bardziej konkurencyjnych firmach programistycznych. Sugerujemy
+    rozwiązanie około 100 losowych zadań z Leetcode w ramach nauki.</p>
+<p>Na koniec, mocno polecamy <em><a
+            href="https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/">How to Solve
+            It</a></em> jako świetny i wyjątkowy przewodnik po ogólnym rozwiązywaniu problemów; jest równie zastosowalny
+    w informatyce, co w matematyce.</p>
+<a href="https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/"><img
+            src="https://pfst.cf2.poecdn.net/base/image/8fef1931c7b51d0e19995e64629aa26452ad0db28354f73572c3ca43cee90948?w=216&amp;h=300&amp;pmaid=49960801"
+            alt="The Algorithm Design Manual"></a>
+<a href="https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/"><img
+            src="https://pfst.cf2.poecdn.net/base/image/b4224931d49f1f245f8807c5bfb9e6a08768374a0a15c1402388a9e35a9661b8?w=194&amp;h=300&amp;pmaid=49960817"
+            alt="How to Solve It"></a>
+<blockquote>
+    <p>Mam tylko jedną metodę, którą gorąco polecam - nazywa się pomyśl zanim zaczniesz pisać.</p>
+</blockquote>
+<p>— Richard Hamming</p>
+<h3 id="matematyka-dla-informatyk-w">Matematyka dla informatyków</h3>
+<p>W pewnym sensie informatyka jest przerośniętą gałęzią matematyki stosowanej. Podczas gdy wielu programistów próbuje -
+    z różnym skutkiem - to zignorować, my zachęcamy, żebyś zgłębił ten temat bezpośrednio. Pomyślne zrobienie tego
+    zapewni ci ogromną przewagę nad tymi, którzy tego nie zrobią.</p>
+<p>Najbardziej istotnym obszarem matematyki dla informatyki jest szeroko pojęta &quot;matematyka dyskretna&quot;, gdzie
+    &quot;dyskretny&quot; jest przeciwieństwem &quot;ciągły&quot; i jest luźnym zbiorem interesujących zagadnień
+    matematyki stosowanej poza rachunkiem różniczkowym i całkowym. Ze względu na niejasną definicję, nie ma sensu
+    próbować objąć całą szerokość &quot;matematyki dyskretnej&quot;. Bardziej realistycznym celem jest zbudowanie
+    działającego zrozumienia logiki, kombinatoryki i rachunku prawdopodobieństwa, teorii mnogości, teorii grafów oraz
+    odrobiny teorii liczb przydatnej w kryptografii. Algebra liniowa to dodatkowy warty zgłębienia obszar ze względu na
+    jej znaczenie w grafice komputerowej i machine learning. </p>
+<p>Nasz sugerowany punkt startu dla matematyki dyskretnej, to zestaw <a
+        href="https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf">notatek wykładowych László
+        Lovásza</a>. Profesor Lovász dobrze sobie poradził z uczyinieniem treści przystępnej i intuicyjnej, więc
+    stanowią one lepszy punkt startu niż bardziej formalne podręczniki.</p>
+<p>Do bardziej zaawansowanego studiowania polecamy <em><a
+            href="https://courses.csail.mit.edu/6.042/spring17/mcs.pdf">Mathematics for Computer Science</a></em>,
+    notatki wielkości książki z kursu MIT o tej samej nazwie. Wykłady wideo z tego kursu są również <a
+        href="https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/">dostępne
+        za darmo</a> i stanowią naszą rekomendowaną serie wykładów video z matematyki dyskretnej.</p>
+<p>Jeśli chodzi o algebrę liniową, sugerujemy rozpoczęcie od serii filmów <a
+        href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of linear algebra</a>, a
+    następnie książki i wykładów <a
+        href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/">Gilberta
+        Stranga</a>.</p>
+<blockquote>
+    <p>Jeśli ludzie nie wierzą, że matematyka jest prosta, to tylko dlatego, że nie zdają sobie sprawy, jak
+        skomplikowane jest życie.</p>
+</blockquote>
+<p>— John von Neumann</p>
+<h3 id="systemy-operacyjne">Systemy operacyjne</h3>
+<p><em><a href="https://www.amazon.com/dp/1118063333/">Operating System Concepts</a></em> (potocznie &quot;Książka o
+    dinozaurach&quot;) oraz <em><a href="https://www.amazon.com/dp/013359162X/">Modern Operating Systems</a></em> to
+    &quot;klasyczne&quot; książki o systemach operacyjnych. Obie zebrały krytykę za brak przejrzystości i ogólną niechęć
+    studentów do korzystania z nich.</p>
+<p><em>Operating Systems: Three Easy Pieces</em> to dobra alternatywa, <a
+        href="http://pages.cs.wisc.edu/~remzi/OSTEP/">dostępna za darmo online</a>. Szczególnie podoba nam się struktura
+    i czytelność tej książki, a także uważamy, że zawarte w niej ćwiczenia są warte uwagi.</p>
+<p>Po lekturze OSTEP, zachęcamy do zgłębienia decyzji projektowych konkretnych systemów operacyjnych, sięgając po
+    książki w stylu &quot;XYZ OS Internals&quot;, takie jak <em><a
+            href="https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/">Lion&#39;s commentary on
+            Unix</a></em>, <em><a
+            href="https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/">The Design and
+            Implementation of the FreeBSD Operating System</a></em> oraz <em><a
+            href="https://www.amazon.com/Mac-OS-X-Internals-Systems-Approach/dp/0321278542/">Mac OS X
+            Internals</a></em>. Jeśli chodzi o Linuksa, polecamy fantastyczną książkę Roberta Love, <a
+        href="https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468">Linux Kernel Development</a>.
+</p>
+<p>Świetnym sposobem na utrwalenie wiedzy o systemach operacyjnych jest przeczytanie kodu małego jądra systemowego i
+    dodanie do niego własnych funkcji. Jednym z wyborów jest <a
+        href="https://pdos.csail.mit.edu/6.828/2016/xv6.html">xv6</a>, port Unixa V6 na ANSI C i x86, utrzymywany na
+    potrzeby kursu na MIT. Na końcu OSTEP znajduje się appendix z pomysłami na <a
+        href="http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf">laboratoria xv6</a> wypełnione świetnymi
+    pomysłami na projekty.</p>
+<p><a href="http://pages.cs.wisc.edu/~remzi/OSTEP/"><img src="https://teachyourselfcs.com/ostep.jpeg"
+            alt="Operating Systems: Three Easy Pieces"></a></p>
+<h3 id="sieci-komputerowe">Sieci komputerowe</h3>
+<p>Biorąc pod uwagę, jak duża część inżynierii oprogramowania dotyczy serwerów i klientów sieciowych, jednym z
+    najbardziej wartościowych obszarów informatyki są sieci komputerowe. Nasi studenci samoucy, którzy metodycznie
+    studiują sieci, zauważają, że nareszcie rozumieją terminy, koncepcje i protokoły, którymi byli otoczeni od lat.</p>
+<p>Nasz ulubiony podręcznik do tego tematu, to <em><a
+            href="https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/">Computer
+            Networking: A Top-Down Approach</a></em>. Zawarte w książce małe projekty i ćwiczenia są warte wykonania, a
+    szczególnie polecamy &quot;Laboratoria Wireshark&quot;, które autorzy hojnie udostępnili <a
+        href="http://www-net.cs.umass.edu/wireshark-labs/">online</a>.</p>
+<p>Dla preferujących wykłady video, polecamy <a
+        href="https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS"><em>Introduction to Computer
+            Networking</em></a> ze Stanfordu, wcześniej dostępny na platformie Lagunita tej uczelni, ale niestety
+    obecnie dostępny tylko jako nieoficjalne playlisty na YouTube.</p>
+<blockquote>
+    <p>Nie możesz spojrzeć w kryształową kulę i przewidzieć przyszłości. Tym, czym Internet będzie w przyszłości, jest
+        to, czym społeczeństwo go uczyni.</p>
+</blockquote>
+<p>— Bob Kahn</p>
+<p><a href="https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/"><img
+            src="https://teachyourselfcs.com/top-down.jpg" alt="Computer Networking: A Top-Down Approach"></a></p>
+<h3 id="bazy-danych">Bazy danych</h3>
+<p>Samodzielne uczenie się o systemach bazodanowych wymaga więcej pracy niż w przypadku większości innych tematów. To
+    stosunkowo nowa (tzn. powstała po 1970 r.) dziedzina badań, w której istnieją silne komercyjne zachęty, aby pomysły
+    pozostały za zamkniętymi drzwiami. Dodatkowo, wielu potencjalnie znakomitych autorów podręczników woli zakładać
+    firmy lub do nich dołączać, zamiast pisać książki. </p>
+<p>W tych okolicznościach, zachęcamy do ogólnego unikania podręczników i rozpoczęcia nauki od <a
+        href="https://www.youtube.com/user/CS186Berkeley/videos">nagrań z kursu CS 186</a> prowadzonego przez Joe
+    Hellersteina na Berkeley, a następnie przejścia do czytania artykułów naukowych.</p>
+<p>Jeden artykuł szczególnie wart polecenia nowym studentom to &quot;<a
+        href="http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf">Architecture of a Database System</a>&quot;,
+    który w unikalny sposób dostarcza wysokopoziomowy przegląd działania relacyjnych systemów zarządzania bazami danych.
+    Posłuży on jako przydatny szkielet do dalszej nauki.</p>
+<p><em>Readings in Database Systems</em>, lepiej znana jako <a href="http://www.redbook.io/">baza danych &quot;Czerwona
+        Księga&quot;</a>, to zbiór artykułów zebranych i zredagowanych przez Petera Bailisa, Joe Hellersteina oraz
+    Michaela Stonebrakera. Ci, którzy posunęli się dalej niż materiał z CS 186, powinni sięgnąć po Czerwoną Księgę.</p>
+<p>Jeśli koniecznie chcesz korzystać z podręcznika, polecamy <em><a
+            href="https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/">Database
+            Management Systems</a></em> autorstwa Ramakrishnana i Gehrke. Bardziej zaawansowanym studentom polecamy
+    klasyczne dzieło Jima Graya <em><a
+            href="https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902">Transaction
+            Processing: Concepts and Techniques</a></em>, ale nie zachęcamy do traktowania tej pozycji jako materiału do
+    rozpoczęcia nauki.</p>
+<p>Na koniec, modelowanie danych to zaniedbywany i źle nauczany aspekt pracy z bazami danych. Nasz sugerowany podręcznik
+    do tego tematu, to <em><a
+            href="https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215">Data and
+            Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World</a></em>.</p>
+<p> <a href="http://www.redbook.io/"><img src="https://teachyourselfcs.com/redbook.jpg"
+            alt="Readings in Database Systems"></a><a
+        href="https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215"><img
+            src="https://teachyourselfcs.com/data-reality.jpg" alt="Data and Reality"></a></p>
+<h3 id="j-zyki-programowania-i-kompilatory">Języki programowania i kompilatory</h3>
+<p>Większość programistów uczy się języków programowania, podczas gdy informatycy uczą się <em>o</em> językach
+    programowania. Daje to informatykowi wyraźną przewagę nad programistą, nawet w dziedzinie programowania! Ich wiedza
+    uogólnia się; są w stanie głębiej i szybciej zrozumieć działanie nowego języka, niż ci, którzy po prostu nauczyli
+    się konkretnych języków.</p>
+<p>Nasz sugerowany podręcznik to świetna pozycja <em><a href="https://craftinginterpreters.com/contents.html">Crafting
+            Interpreters</a></em> autorstwa Boba Nystroma, dostępna za darmo online. Jest dobrze zorganizowana,
+    niezwykle interesująca i świetnie nadaje się dla tych, których głównym celem jest po prostu lepsze zrozumienie ich
+    języków programowania i narzędzi do nich. Sugerujemy poświęcenie czasu na przerobienie całości, podejmując wyzwania,
+    które Was zainteresują.</p>
+<p>Bardziej tradycyną rekomendacją jest <em><a
+            href="https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811">Compilers:
+            Principles, Techniques &amp; Tools</a></em>, potocznie nazywana &quot;Księgą Smoków&quot;. Niestety, nie
+    jest ona zaprojektowana do samodzielnej nauki, ale raczej jako materiał dla wykładowców, którzy wybierają z niej
+    tematy na 1-2 semestry swoich kursów.</p>
+<p>Jeśli zdecydujecie się korzystać z Księgi Smoków, kluczowe jest, abyście wybierali interesujące Was tematy, idealnie
+    przy wsparciu mentora. W rzeczywistości, nasz sugerowany sposób wykorzystania Księgi Smoków, jeśli zdecydujecie się
+    na nią, to jako dodatkowe źródło referencyjne do serii wykładów wideo. Nasz polecany wybór to <a
+        href="https://www.edx.org/course/compilers">kurs Alexa Aikena na edX</a>.</p>
+<p><a href="https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811"><img
+            src="https://teachyourselfcs.com/dragon.jpg" alt="Compilers: Principles, Techniques &amp; Tools"></a></p>
+<blockquote>
+    <p>Nie bądź programistą szablonowym. Zamiast tego, buduj narzędzia dla użytkowników i innych programistów. Weź
+        przykład z przemysłu włókienniczego i stalowego: czy chcesz budować maszyny i narzędzia, czy chcesz obsługiwać
+        te maszyny?</p>
+</blockquote>
+<p>— Ras Bodik na początku swojego kursu o kompilatorach</p>
+<h3 id="systemy-rozproszone">Systemy rozproszone</h3>
+<p>W miarę jak komputery stawały się liczniejsze, także się <em>rozprzestrzeniły</em>. Podczas gdy wcześniej firmy
+    kupowały coraz większe mainframe&#39;y, dzisiaj typowe jest, że nawet bardzo małe aplikacje działają na wielu
+    maszynach. Systemy rozproszone zajmują się badaniem, jak rozumować o kompromisach związanych z takim podejściem.
+</p>
+<p>Nasz sugerowany podręcznik do samodzielnej nauki, to <em><a
+            href="https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/">Designing
+            Data-Intensive Applications</a></em> autorstwa Martina Kleppmanna. Znacznie lepszy niż tradycyjny
+    podręcznik, DDIA to niezwykle czytelna książka stworzona dla praktyków, która w jakiś sposób unika poświęcenia głębi
+    tematu czy rzetelności.</p>
+<p>Ci, którzy szukają bardziej tradycyjnego podręcznika, lub wolą taki, który jest dostępny za darmo online, mogą
+    sięgnąć po <em><a href="https://www.distributed-systems.net/index.php/books/ds3/">Distributed Systems, 3rd
+            Edition</a></em> autorstwa Maartena van Steena i Andrew Tanenbauma.</p>
+<p>Preferującym wykłady video polecamy świetny kurs <a
+        href="https://www.youtube.com/watch?v=cQP8WApzIQQ&amp;list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB">MIT 6.824</a>
+    prowadzony przez Roberta Morrisa, którego materiały dostępne są <a
+        href="https://pdos.csail.mit.edu/6.824/schedule.html">tutaj</a>.</p>
+<p>Niezależnie od wyboru podręcznika czy innych materiałów, nauka systemów rozproszonych absolutnie wymaga czytania
+    artykułów naukowych. Dobry zbiór znajduje się <a href="http://dsrg.pdos.csail.mit.edu/papers/">tutaj</a>, a także
+    gorąco zachęcamy do uczestniczenia w lokalnym rozdziale <a href="http://paperswelove.org/">Papers We Love</a>. </p>
+<p><a href="https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/"><img
+            src="https://teachyourselfcs.com/ddia.jpg" alt="Designing Data-Intensive Applications"></a></p>
+<h2 id="cz-sto-zadawane-pytania">Często zadawane pytania</h2>
+<h4 id="kto-jest-docelow-grup-odbiorc-w-tego-poradnika-">Kto jest docelową grupą odbiorców tego poradnika?</h4>
+<p>Zakładamy, że jesteś samoukiem-programistą, absolwentem bootcampu, ambitnym uczniem szkoły średniej lub studentem
+    szukającym materiałów do samodzielnej nauki, uzupełniających formalną edukację. Kiedy zacząć tę podróż, to
+    całkowicie osobista decyzja, ale większość osób odnosi korzyści z posiadania doświadczenia zawodowego przed
+    zanurzeniem się zbyt głęboko w teorię informatyki. Na przykład, zauważyliśmy, że studenci <em>uwielbiają</em> uczyć
+    się o systemach bazodanowych, jeśli wcześniej pracowali zawodowo z bazami danych lub o sieciach komputerowych, jeśli
+    pracowali nad projektami webowymi.</p>
+<h4 id="a-co-z-si-grafik-ulubionym-tematem-x-">A co z SI/grafiką/ulubionym tematem X?</h4>
+<p>Staraliśmy się ograniczyć listę do tematów informatycznych, które uważamy za obowiązkową wiedzę dla <em>każdego
+        praktykującego inżyniera oprogramowania</em>, niezależnie od specjalizacji czy branży, ale z naciskiem na
+    systemy. Naszym zdaniem, będą to tematy o najwyższej stopie zwrotu dla zdecydowanej większości samouków i
+    absolwentów bootcampów, dostarczając solidny fundament do dalszej nauki. W rezultacie, znajdziesz się w znacznie
+    lepszej pozycji, aby samodzielnie sięgnąć po podręczniki czy artykuły i poznać kluczowe koncepcje bez specjalnego
+    wsparcia. Oto nasze proponowane punkty startu dla kilku popularnych &quot;zajęć dodatkowych&quot;:</p>
+<ul>
+    <li>Wprowadzenie do SI: Obiejrzyj <a href="http://ai.berkeley.edu/">kurs Berkeley AI</a>, oglądając nagrania
+        wykładów i wykonując znakomite projekty Pacman. Jako podręcznik, użyj <em>Artificial Intelligence: A Modern
+            Approach</em> autorstwa Russella i Norviga. </li>
+    <li>Uczenie maszynowe: Zrób kurs Andrew Ng na Courserze. Bądź cierpliwy i upewnij się, że rozumiesz podstawy zanim
+        rzucisz się w błyszczące nowe tematy takie jak deep learning.</li>
+    <li>Grafika komputerowa: Przerób materiały z <a
+            href="http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html">Berkeley CS 184</a>, używając jako
+        podręcznika <em><a
+                href="https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528">Computer Graphics:
+                Principles and Practice</a></em>.</li>
+</ul>
+<h4 id="jak-rygorystyczna-jest-sugerowana-kolejno-">Jak rygorystyczna jest sugerowana kolejność?</h4>
+<p>Realistycznie patrząc, wszystkie te tematy mają ze sobą znaczące nachodzenie na siebie i odnoszą się do siebie
+    cyklicznie. Weźmy na przykład relację między matematyką dyskretną a algorytmami: nauka matematyki najpierw
+    pozwoliłaby Ci głębiej analizować i rozumieć Twoje algorytmy, ale nauka algorytmów najpierw dostarczyłaby większej
+    motywacji i kontekstu dla matematyki dyskretnej. Idealnie, wracałbyś do obu tych tematów wiele razy w trakcie
+    kariery.</p>
+<p>Dlatego nasza sugerowana kolejność ma przede wszystkim pomóc Ci <em>w ogóle zacząć</em>... jeśli masz przekonujący
+    powód, aby preferować inną sekwencję, to śmiało, realizuj swój plan. Naszym zdaniem, najważniejsze &quot;wymagania
+    wstępne&quot; to: architektura komputerów przed systemami operacyjnymi lub bazami danych oraz sieci i systemy
+    operacyjne przed systemami rozproszonymi.</p>
+<h4 id="jak-to-si-ma-do-program-w-open-source-society-lub-freecodecamp-">Jak to się ma do programów Open Source Society
+    lub freeCodeCamp?</h4>
+<p>Kiedy ten poradnik powstawał w 2016 r., program <a
+        href="https://github.com/open-source-society/computer-science">OSS</a> zawierał zbyt wiele tematów, sugerował
+    gorsze materiały do wielu z nich i nie dostarczał żadnego uzasadnienia czy wskazówek, które aspekty poszczególnych
+    kursów są wartościowe. Staraliśmy się ograniczyć listę kursów do tych, które Twoim zdaniem <em>naprawdę powinien
+        znać</em> każdy inżynier oprogramowania, niezależnie od specjalizacji i pomóc Ci zrozumieć, dlaczego każdy kurs
+    został uwzględniony. W kolejnych latach, program OSS poprawił się, ale wciąż uważamy, że ten poradnik dostarcza
+    jaśniejszą, spójniejszą ścieżkę.</p>
+<p>freeCodeCamp koncentruje się głównie na programowaniu, nie informatyce. Dlaczego warto uczyć się informatyki, zobacz
+    <a href="#dlaczego-warto-uczy-si-informatyki-">powyżej</a>. Jeśli jesteś nowy w programowaniu, sugerujemy skupienie się
+    na nim najpierw i powrót do tego poradnika za rok czy dwa.</p>
+<h4 id="a-co-z-j-zykiem-x-">A co z językiem X?</h4>
+<p>Nauka konkretnego języka programowania i uczenie się dziedziny informatyki to zupełnie inna płaszczyzna — nauka
+    języka jest znacznie <em>łatwiejsza</em> i znacznie <em>mniej wartościowa</em>. Jeśli znasz już kilka języków, mocno
+    sugerujemy po prostu podążanie za naszym poradnikiem i dopasowywanie nauki języków w lukach lub zostawienie jej na
+    później. Jeśli nauczyłeś się programowania dobrze (np. przez <em>Structure and Interpretation of Computer
+        Programs</em>), a zwłaszcza jeśli poznałeś kompilatory, powinno Ci zająć nie więcej niż weekend, żeby przyswoić
+    podstawy nowego języka, a następnie możesz uczyć się o bibliotekach/narzędziach/ekosystemie w pracy.</p>
+<h4 id="a-co-z-modn-technologi-x-">A co z modną technologią X?</h4>
+<p>Żadna pojedyncza technologia nie jest na tyle istotna, że nauka jej używania powinna być rdzeniem Twojej edukacji. Z
+    drugiej strony, świetnie, że jesteś podekscytowany jej nauką. Kluczem jest praca wstecz od konkretnej technologii do
+    leżącej u jej podstaw dziedziny czy koncepcji i nauka jej dogłębnie zanim zobaczysz, jak Twoja modna technologia
+    pasuje do większego obrazu.</p>
+<h4 id="dlaczego-wci-polecasz-sicp-">Dlaczego wciąż polecasz SICP?</h4>
+<p>Posłuchaj, po prostu spróbuj. Niektórzy ludzie uważają SICP za zmieniającą życie pozycję, cechę wspólną z bardzo
+    niewieloma innymi książkami. Jeśli Ci się nie spodoba, zawsze możesz spróbować czegoś innego i być może wrócić do
+    SICP później.</p>
+<h4 id="dlaczego-wci-polecasz-ksi-g-smok-w-">Dlaczego wciąż polecasz Księgę Smoków?</h4>
+<p>Księga Smoków wciąż jest najbardziej kompletnym pojedynczym źródłem dot. kompilatorów. Źle się o niej mówi, zwykle za
+    zbytnie skupianie się na pewnych tematach, które dziś uważa się za mniej warte szczegółowego omawiania, takich jak
+    analiza składni. Rzecz w tym, że książka nigdy nie była przeznaczona do czytania od deski do deski, tylko do
+    dostarczenia wystarczającego materiału, z którego wykładowca może złożyć kurs. Podobnie, osoba ucząca się
+    samodzielnie może wybrać własną ścieżkę przez książkę lub lepiej podążyć za sugestiami, które prowadzący publiczne
+    kursy zawarli w planach swoich zajęć. </p>
+<h4 id="jak-mog-tanio-kupi-podr-czniki-">Jak mogę tanio kupić podręczniki?</h4>
+<p>Wiele podręczników, które polecamy jest dostępnych za darmo online, dzięki hojności ich autorów. W przypadku
+    pozostałych, sugerujemy kupowanie używanych egzemplarzy starszych wydań. Generalnie, jeśli od premiery podręcznika
+    minęło kilka wydań, jest całkiem prawdopodobne, że starsze wydanie będzie w pełni wystarczające. Na pewno nowsza
+    wersja nie jest 10 razy lepsza od starszej, nawet jeśli różnica w cenie na to wskazuje!</p>
+<h4 id="kto-stworzy-ten-poradnik-">Kto stworzył ten poradnik?</h4>
+<p>Pierwotnie poradnik został napisany przez <a href="https://twitter.com/oznova_">Oz Novę</a> i <a
+        href="https://twitter.com/quackingduck">Mylesa Byrne&#39;a</a>, a aktualizacja z 2020 r. jest autorstwa Oza.
+    Powstał on w oparciu o nasze doświadczenie w nauczaniu podstaw informatyki grup ponad 1000 głównie samouczących się
+    inżynierów i absolwentów bootcampów w małych grupach w San Francisco i online. Dziękujemy wszystkim naszym studentom
+    za nieustanną informację zwrotną na temat materiałów do samodzielnej nauki.</p>
+<p>Jesteśmy głęboko przekonani, że przy odpowiedniej ilości czasu i motywacji, mógłbyś samodzielnie nauczyć się
+    wszystkiego powyżej. Ale jeśli wolałbyś intensywny, ustrukturyzowany program z instruktorem, może Cię zainteresować
+    nasz <a href="https://bradfieldcs.com/csi/">Computer Science Intensive</a>. <a
+        href="https://ozwrites.com/masters/">NIE</a> polecamy studiów magisterskich.</p>
+<p><a href="mailto:hello@bradfieldcs.com">hello@bradfieldcs.com</a>
+    <p>San Francisco, California</p>
+    <p>© 2016-2020 Bradfield School of Computer Science</p>
+
+</html>

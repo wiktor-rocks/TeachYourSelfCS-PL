@@ -1,0 +1,159 @@
+/* Base styles that are common to all screen sizes */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 2% 25%;
+  font-family: 'Roboto', sans-serif;
+}
+blockquote {
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 5px solid #009879; /* Solid color bar on the left */
+  background-color: #f9f9f9; /* Light background color for contrast */
+  font-style: italic; /* Italicize text */
+  font-size: 1.1em; /* Slightly larger font size */
+  line-height: 1.6; /* Improved line height for readability */
+  overflow: hidden; /* In case of very long words or URLs */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead tr {
+  background-color: #009879;
+  color: black;
+  text-align: left;
+}
+
+th, td {
+  padding: 12px 15px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+a {
+  color: rgb(0, 96, 174);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.important {
+    color:red;
+}
+
+/* Responsive styles */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .header, .footer {
+    background-color: #eeeeee;
+  }
+
+  img {
+    max-width: 60%;
+  }
+
+  body {
+    padding: 2% 5%;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .header, .content, .footer {
+    padding: 40px;
+  }
+
+  body{
+    padding: 2% 5%;
+  }
+
+ 
+
+ 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .header, .footer {
+    background-color: #cccccc;
+  }
+
+  body {
+    padding: 2% 5%;
+  }
+
+       /* Hide the original table headers */
+  thead {
+    display: none;
+  }
+
+  /* Make the table element and its rows behave like block elements */
+  table, tbody, tr {
+    display: block;
+    width: 95%;
+  }
+
+  /* Style each cell to look like a paragraph */
+  td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+  }
+
+  /* Add a pseudo-element to create the look of a title for each cell */
+  td:before {
+    content: attr(data-title);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  /* Remove box shadows as they no longer fit the transformed layout */
+  table {
+    box-shadow: none;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
+    body {
+        padding: 2% 5%;
+      }
+}
