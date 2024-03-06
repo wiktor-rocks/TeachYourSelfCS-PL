@@ -23,13 +23,13 @@ Przestudiuj wszystkie dziewięć tematów poniżej, mniej więcej w podanej kole
 |---|---|---|---|
 |**[Programowanie](#programowanie)**|Nie bądź osobą, która "nigdy do końca nie zrozumiała" czegoś takiego jak rekurencja.|_Structure and Interpretation of Computer Programs_|Wykłady Briana Harveya z Berkeley CS 61A|
 |**[Architektura komputerów](#architektura-komputerów)**|Jeśli nie masz solidnego modelu mentalnego tego, jak komputer faktycznie działa, wszystkie twoje wyższo poziomowe abstrakcje będą kruche.|_Computer Systems: A Programmer's Perspective_|Berkeley CS 61C|
-|**[Algorytmy i struktury danych](algorytmy-i-struktury-danych)**|Jeśli nie umiesz korzystać z powszechnych struktur danych, takich jak stosy, kolejki, drzewa i grafy, nie będziesz w stanie rozwiązywać trudnych problemów.|_The Algorithm Design Manual_|Wykłady Stevena Skieny|
-|**[Matematyka dla informatyków](matematyka-dla-informatyków)**|Informatyka to w zasadzie rozgałęzienie stosowanej matematyki, więc nauka matematyki da ci przewagę konkurencyjną.|_Mathematics for Computer Science_|Wykłady Toma Leightona z MIT 6.042J|
-|**[Systemy operacyjne](systemy-operacyjne)**|Większość pisanego przez Ciebie kodu jest egzekwowana przez system operacyjny, więc powinieneś wiedzieć, jak te elementy współdziałają ze sobą.|_Operating Systems: Three Easy Pieces_|Berkeley CS 162|
-|**[Sieci komputerowe](sieci-komputerowe)**|Internet okazał się wielką sprawą: zrozum jego działanie, aby odblokować jego pełen potencjał.|_Computer Networking: A Top-Down Approach_|Stanford CS 144|
-|**[Bazy danych](bazy-danych)**|Dane są w sercu większości ważnych programów, ale niewiele osób rozumie, jak działają systemy bazodanowe.|_Readings in Database Systems_|Wykłady Joe Hellersteina z Berkeley CS 186|
-|**[Języki i kompilatory](języki-i-kompilatory)**|Jeśli zrozumiesz, jak faktycznie działają języki i kompilatory, będziesz pisać lepszy kod i łatwiej nauczysz się nowych języków.|_Crafting Interpreters_|Kurs Alexa Aikena na edX|
-|**[Systemy rozproszone](systemy-rozproszone)**|W dzisiejszych czasach, większość systemów to systemy rozproszone.|_Designing Data-Intensive Applications_ Martina Kleppmanna|MIT 6.824|
+|**[Algorytmy i struktury danych](#algorytmy-i-struktury-danych)**|Jeśli nie umiesz korzystać z powszechnych struktur danych, takich jak stosy, kolejki, drzewa i grafy, nie będziesz w stanie rozwiązywać trudnych problemów.|_The Algorithm Design Manual_|Wykłady Stevena Skieny|
+|**[Matematyka dla informatyków](#matematyka-dla-informatyków)**|Informatyka to w zasadzie rozgałęzienie stosowanej matematyki, więc nauka matematyki da ci przewagę konkurencyjną.|_Mathematics for Computer Science_|Wykłady Toma Leightona z MIT 6.042J|
+|**[Systemy operacyjne](#systemy-operacyjne)**|Większość pisanego przez Ciebie kodu jest egzekwowana przez system operacyjny, więc powinieneś wiedzieć, jak te elementy współdziałają ze sobą.|_Operating Systems: Three Easy Pieces_|Berkeley CS 162|
+|**[Sieci komputerowe](#sieci-komputerowe)**|Internet okazał się wielką sprawą: zrozum jego działanie, aby odblokować jego pełen potencjał.|_Computer Networking: A Top-Down Approach_|Stanford CS 144|
+|**[Bazy danych](#bazy-danych)**|Dane są w sercu większości ważnych programów, ale niewiele osób rozumie, jak działają systemy bazodanowe.|_Readings in Database Systems_|Wykłady Joe Hellersteina z Berkeley CS 186|
+|**[Języki i kompilatory](#języki-i-kompilatory)**|Jeśli zrozumiesz, jak faktycznie działają języki i kompilatory, będziesz pisać lepszy kod i łatwiej nauczysz się nowych języków.|_Crafting Interpreters_|Kurs Alexa Aikena na edX|
+|**[Systemy rozproszone](#systemy-rozproszone)**|W dzisiejszych czasach, większość systemów to systemy rozproszone.|_Designing Data-Intensive Applications_ Martina Kleppmanna|MIT 6.824|
 
 ## Wciąż za dużo?
 
@@ -226,7 +226,7 @@ Dlatego nasza sugerowana kolejność ma przede wszystkim pomóc Ci _w ogóle za
 
 Kiedy ten poradnik powstawał w 2016 r., program [OSS](https://github.com/open-source-society/computer-science) zawierał zbyt wiele tematów, sugerował gorsze materiały do wielu z nich i nie dostarczał żadnego uzasadnienia czy wskazówek, które aspekty poszczególnych kursów są wartościowe. Staraliśmy się ograniczyć listę kursów do tych, które Twoim zdaniem _naprawdę powinien znać_ każdy inżynier oprogramowania, niezależnie od specjalizacji i pomóc Ci zrozumieć, dlaczego każdy kurs został uwzględniony. W kolejnych latach, program OSS poprawił się, ale wciąż uważamy, że ten poradnik dostarcza jaśniejszą, spójniejszą ścieżkę.
 
-freeCodeCamp koncentruje się głównie na programowaniu, nie informatyce. Dlaczego warto uczyć się informatyki, zobacz [powyżej](dlaczego-warto-uczyć-się-informatyki?). Jeśli jesteś nowy w programowaniu, sugerujemy skupienie się na nim najpierw i powrót do tego poradnika za rok czy dwa.
+freeCodeCamp koncentruje się głównie na programowaniu, nie informatyce. Dlaczego warto uczyć się informatyki, zobacz [powyżej](#dlaczego-warto-uczyć-się-informatyki?). Jeśli jesteś nowy w programowaniu, sugerujemy skupienie się na nim najpierw i powrót do tego poradnika za rok czy dwa.
 
 #### A co z językiem X?
 
