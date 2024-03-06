@@ -21,7 +21,7 @@ Przestudiuj wszystkie dziewięć tematów poniżej, mniej więcej w podanej kole
 
 |Temat|Dlaczego warto się go nauczyć?|Książka|Wykłady video|
 |---|---|---|---|
-|**[Programowanie](https://wiktor-rocks.github.io/TeachYourSelfCS-PL/#programowanie)**|Nie bądź osobą, która "nigdy do końca nie zrozumiała" czegoś takiego jak rekurencja.|_Structure and Interpretation of Computer Programs_|Wykłady Briana Harveya z Berkeley CS 61A|
+|**[Programowanie](#programowanie)**|Nie bądź osobą, która "nigdy do końca nie zrozumiała" czegoś takiego jak rekurencja.|_Structure and Interpretation of Computer Programs_|Wykłady Briana Harveya z Berkeley CS 61A|
 |**[Architektura komputerów](https://wiktor-rocks.github.io/TeachYourSelfCS-PL/#architektura-komputer-w)**|Jeśli nie masz solidnego modelu mentalnego tego, jak komputer faktycznie działa, wszystkie twoje wyższo poziomowe abstrakcje będą kruche.|_Computer Systems: A Programmer's Perspective_|Berkeley CS 61C|
 |**[Algorytmy i struktury danych](https://wiktor-rocks.github.io/TeachYourSelfCS-PL/#algorytmy-i-struktury-danych)**|Jeśli nie umiesz korzystać z powszechnych struktur danych, takich jak stosy, kolejki, drzewa i grafy, nie będziesz w stanie rozwiązywać trudnych problemów.|_The Algorithm Design Manual_|Wykłady Stevena Skieny|
 |**[Matematyka dla informatyków](https://wiktor-rocks.github.io/TeachYourSelfCS-PL/#matematyka-dla-informatyk-w)**|Informatyka to w zasadzie rozgałęzienie stosowanej matematyki, więc nauka matematyki da ci przewagę konkurencyjną.|_Mathematics for Computer Science_|Wykłady Toma Leightona z MIT 6.042J|
