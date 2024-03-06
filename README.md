@@ -5,7 +5,7 @@ Polskie tłumaczenie przewodnika [TeachYourselfCS](teachyourselfcs.com).
 A Polish translation of [TeachYourselfCS](teachyourselfcs.com).
 
 - [Original](teachyourselfcs.com)
-- [Polske tłumaczenie](https://wiktor-rocks.github.io/TeachYourSelfCS-PL/)
+- [Strona internetowa polskiego tłumaczenie](https://wiktor-rocks.github.io/TeachYourSelfCS-PL/)
 
 # Naucz się Informatyki na własną rękę
 
